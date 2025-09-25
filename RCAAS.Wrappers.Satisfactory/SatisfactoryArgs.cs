@@ -1,4 +1,5 @@
-﻿namespace RCAAS.Wrappers.Satisfactory
+﻿using RCAAS.Core.Helpers;
+namespace RCAAS.Wrappers.Satisfactory
 {
     public class SatisfactoryArgs : BaseArgs
     {
