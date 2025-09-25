@@ -76,7 +76,7 @@ namespace RCAAS.Wrappers.Satisfactory
         {
             if (App == null) return;
             var appid = App.Id;
-            // THere is no graceful way to stop the server other than killing the process.
+            // There is no graceful way to stop the server other than killing the process.
             App.Kill(entireProcessTree: true);
             App.WaitForExit(WaitTime);
 
