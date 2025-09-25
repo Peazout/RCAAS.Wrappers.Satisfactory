@@ -49,7 +49,6 @@ namespace RCAAS.Wrappers.Satisfactory
 
         protected override string CreateProcessArgs()
         {
-            var stamp = DateTime.Now.ToString("yyyyMMddHHmmss");
 
             var str = new StringBuilder();
             // str.Append($" -multihome=<ip address>"); // Bind the server process to a specific IP address rather than all available interfaces 
